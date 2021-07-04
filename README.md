@@ -5,7 +5,7 @@ Use this for RG351P with rg351p-js2box available [here](https://github.com/chris
 Build
 ======
 ```
-git clone https://github.com/christianhaitian/retrorun-go2.git
+git clone https://github.com/christianhaitian/retrorun-go2.git -b chi
 make
 strip retrorun
 ```
