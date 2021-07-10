@@ -293,7 +293,7 @@ void core_video_refresh(const void * data, unsigned width, unsigned height, size
                     gles_surface,
                     0, ss_h - height, width, height,
                     y, x, h, w,
-                    GO2_ROTATION_DEGREES_270);
+                    GO2_ROTATION_DEGREES_0);
 
         go2_context_surface_unlock(context3D, gles_surface);
  #else
@@ -376,6 +376,6 @@ void core_video_refresh(const void * data, unsigned width, unsigned height, size
                            surface,
                            0, 0, width, height,
                            y, x, h, w,
-                           GO2_ROTATION_DEGREES_270);
+                           GO2_ROTATION_DEGREES_0);
     }
 }
