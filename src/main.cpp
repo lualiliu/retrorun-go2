@@ -26,7 +26,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 //#include <go2/queue.h>
 
-#include <linux/dma-buf.h>
+//#include <linux/dma-buf.h>
 #include <sys/ioctl.h>
 
 #include "libretro.h"
